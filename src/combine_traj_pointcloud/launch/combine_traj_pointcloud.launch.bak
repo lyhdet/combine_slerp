@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="combine_traj_pointcloud" type="combine_traj_pointcloud" name="combine_traj_pointcloud" output="screen">
+    <param name="input_traj_file" value="/home/lyh/lab/data/livox_0819/xiahang2230_65-68.txt"/>
+    <param name="input_lidar_bag" value="/home/lyh/lab/data/livox_0819/2020-08-28-11-20-48.bag"/>
+    <param name="output_save_path" value="/home/lyh/lab/data/tmp_result/livox_0819_s"/>
+    <param name="save_per_point" value="100000"/>
+    <param name="rot_trans" value="-0.00400424,-0.999658,-0.0258618,-0.0512129,0.0117699,-0.0259073,0.999595,-0.101457,-0.999923,0.00369832,0.0118696,-0.0230698"/>
+    <param name="time_offset" value="-1719.82"/>
+  </node>
+
+</launch>

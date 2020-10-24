@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="transform_traj_format" type="transform_traj_format" name="transform_traj_format" output="screen">
+    <param name="input_traj_file" value="/home/lyh/lab/data/livox_0819/xiahang2230_65-68.txt"/>
+    <param name="output_traj_file" value="/home/lyh/lab/data/livox_0819/transformed_format.csv"/>
+  </node>
+
+</launch>
